@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Feb  6 16:17:48 2024
+
+@author: nams
+"""
+
+"""Python Essentials """
+
+"""A simple program to compute speed"""
+
+num1 = int(input("Enter distance covered: "))
+num2 = int(input("Enter time/duration of the journey: "))
+
+result = num1 / num2
+
+print("Distance: ",num1)
+print("Time: ",num2)
+print("Speed",result)
